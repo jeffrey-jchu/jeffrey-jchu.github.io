@@ -1,9 +1,9 @@
 # main text of home
-name: John Doe
-bio: A Man who travels the world eating noodles
+name: Jeffrey Chu
+bio: Research Associate @ University of Manchester, UK
 
 # twitter summary info
-description: A blog about technology and stuff related
+description: My personal blog
 
 # if it's an external image, update below for true
 # better with square images
@@ -13,10 +13,10 @@ picture: assets/images/profile.jpg
 # If you want to include your resume, set to true
 # and specify source (external or local).
 resume: true
-resume-external: true
-resume-url: https://google.com/?q=my+resume
+resume-external: false
+resume-url: assets/docs/cv.pdf
 
-url: https://koppl.in/indigo
+url: https://jeffrey-jchu.github.io
 # your url: http://USERNAME.github.io
 
 permalink: /:title/
@@ -50,21 +50,15 @@ github: mygithub
 medium: medium
 # vimeo: myvimeo
 # lanyrd: mylanyrd
-email: myemail@gmail.com
+email: jeffrey.chu@manchester.ac.uk
 
 authors:
     johndoe:
-        name: John Doe
-        bio: A Man who travels the world eating noodles
+        name: Jeffrey Chu
+        bio: Research Associate @ University of Manchester, UK
         external-image: false
         picture: assets/images/profile.jpg
-        twitter: johndoe
-    jamesfoster:
-        name: James Foster
-        bio: A Man who develops software with coffee
-        external-image: false
-        picture: assets/images/james.jpg
-        twitter: jamesfoster
+        twitter: iamthechuster
 
 # do you want a larger site? change the option below
 # options: [normal, large] | default: normal
