@@ -1,6 +1,6 @@
 # main text of home
 name: Jeffrey Chu
-bio: Research Associate @ University of Manchester, UK
+bio: Research Associate - University of Manchester, UK
 
 # twitter summary info
 description: My personal blog
@@ -34,20 +34,20 @@ disqus:
   categories: [blog, project] # only show disqus for posts that have these categories
 
 # if you don't have any of social below, comment the line
-facebook: myfacebook
-twitter: mytwitter
+# facebook: myfacebook
+# twitter: mytwitter
 # google: mygoogle
 # instagram: myinstagram
 # pinterest: mypinterest
 # linkedin: mylinkedin
 # youtube: myyoutube
 # spotify: myspotify
-github: mygithub
+# github: mygithub
 # lastfm: mylastfm
 # stackoverflow: 7044681/mystackoverflow
 # quora: userquora
 # reddit: username
-medium: medium
+# medium: medium
 # vimeo: myvimeo
 # lanyrd: mylanyrd
 email: jeffrey.chu@manchester.ac.uk
@@ -55,7 +55,7 @@ email: jeffrey.chu@manchester.ac.uk
 authors:
     johndoe:
         name: Jeffrey Chu
-        bio: Research Associate @ University of Manchester, UK
+        bio: Research Associate - University of Manchester, UK
         external-image: false
         picture: assets/images/profile.jpg
         twitter: iamthechuster
