@@ -1,6 +1,7 @@
 ---
 title: Research
 layout: page
+permalink: /research/index.html
 ---
 ![Profile Image]({{ site.url }}/{{ site.picture }})
 
