@@ -1,7 +1,7 @@
 {% if page.title == "Home"%}{% assign showHeader = true %}{% endif %}
 
 <!-- added: new minimal header-->
-{% if page.title == "Blog" or page.title == "Projects" or page.title == "About" or page.title == "Research" %}{% assign showMinHeader = true %}{% endif %}
+{% if page.title == "Blog" or page.title == "Projects" or page.title == "About" or page.title == "Research" or page.title == "Publications" or page.title == "Teaching" or page.title = "Contact" %}{% assign showMinHeader = true %}{% endif %}
 
 {% if showHeader == true %}
     <header class="header-home {% if site.animation %}animated{% endif %}">

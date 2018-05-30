@@ -76,6 +76,9 @@ width: large
 about: true
 blog: true
 research: true
+publications: true
+teaching: true
+contact: true
 
 # do you want to show the "read time" of the posts?
 read-time: true
