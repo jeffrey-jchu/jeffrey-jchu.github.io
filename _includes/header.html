@@ -25,7 +25,7 @@ or page.title == "Contact" %}{% assign showMinHeader = true %}{% endif %}
 <!-- added: new minimal header-->
 {% if showMinHeader == true %}
     <header class="header-home {% if site.animation %}animated{% endif %}">
-        <h2 class="title">{{ page.title }}</h1>
+        <h1 class="title">{{ page.title }}</h1>
         {% include social-links.html %}
     </header>
 {% endif %}
