@@ -1,5 +1,5 @@
 ---
-title: "Blog Test"
+title: "Blog Test update"
 layout: post
 date: 2016-05-29 21:30
 image: #
@@ -12,7 +12,7 @@ category: blog
 author: jeffchu
 description: testing blog
 ---
-## Blog test
+## Blog test update
 
 1, 2, 3, etc.
 
