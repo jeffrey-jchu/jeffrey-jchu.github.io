@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en" data-lang="en" data-title-en="AI &amp; Digital Finance Lab" data-title-zh="人工智能与数字金融实验室">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AI &amp; Digital Finance Lab</title>
+  <meta name="description" content="The AI & Digital Finance Lab at Renmin University of China — research at the intersection of statistics, machine learning and financial markets." />
+  <link rel="stylesheet" href="../style.css" />
+</head>
+<body class="lab">
+
+  <div class="controls">
+    <button id="lang-toggle"  class="ctrl-btn" onclick="toggleLang()"  title="Switch language"></button>
+    <button id="theme-toggle" class="ctrl-btn" onclick="toggleTheme()" title="Toggle dark mode"></button>
+  </div>
+
+  <main>
+    <a href="../" class="back-link">
+      <svg viewBox="0 0 24 24"><path d="M19 12H5"/><path d="m12 19-7-7 7-7"/></svg>
+      <span class="en">Back</span><span class="zh">返回</span>
+    </a>
+
+    <section class="profile">
+      <img class="avatar"
+        src="../lab-logo.svg"
+        alt="AI &amp; Digital Finance Lab"
+        onerror="this.style.background='#d0d0d0';this.removeAttribute('src')" />
+
+      <h1>
+        <span class="en">AI &amp; Digital Finance Lab</span>
+        <span class="zh">人工智能与数字金融实验室</span>
+      </h1>
+      <div class="profile-meta" style="margin-top:0.4rem;">
+        <div>
+          <a href="http://stat.ruc.edu.cn" target="_blank" rel="noopener"><span class="en">School of Statistics</span><span class="zh">统计学院</span></a>
+        </div>
+        <div>
+          <a href="https://www.ruc.edu.cn/" target="_blank" rel="noopener"><span class="en">Renmin University of China</span><span class="zh">中国人民大学</span></a>
+        </div>
+      </div>
+
+      <div class="profile-divider"></div>
+
+      <div class="profile-meta">
+        <div>
+          <span class="en">Mail:</span><span class="zh">邮箱：</span>
+          jeffrey.jchu [at] ruc [dot] edu [dot] cn
+        </div>
+      </div>
+
+      <div class="social-links">
+        <!-- Google Scholar: graduation cap -->
+        <a href="https://scholar.google.com/citations?user=0jB6u6kAAAAJ" target="_blank" rel="noopener" title="Google Scholar">
+          <svg viewBox="0 0 24 24"><path d="M21.42 10.922a1 1 0 0 0-.019-1.838L12.83 5.18a2 2 0 0 0-1.66 0L2.6 9.08a1 1 0 0 0 0 1.832l8.57 3.908a2 2 0 0 0 1.66 0z"/><path d="M22 10v6"/><path d="M6 12.5V16a6 3 0 0 0 12 0v-3.5"/></svg>
+        </a>
+        <!-- ORCID: ID card -->
+        <a href="#" target="_blank" rel="noopener" title="ORCID">
+          <svg viewBox="0 0 24 24"><rect x="2" y="5" width="20" height="14" rx="2"/><circle cx="8" cy="11" r="2"/><path d="M13 10h4M13 14h3"/><path d="M2 16h20"/></svg>
+        </a>
+        <!-- GitHub -->
+        <a href="#" target="_blank" rel="noopener" title="GitHub">
+          <svg viewBox="0 0 24 24"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"/><path d="M9 18c-4.51 2-5-2-7-2"/></svg>
+        </a>
+        <!-- LinkedIn -->
+        <a href="#" target="_blank" rel="noopener" title="LinkedIn">
+          <svg viewBox="0 0 24 24"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+        </a>
+        <!-- X / Twitter -->
+        <a href="#" target="_blank" rel="noopener" title="X (Twitter)">
+          <svg viewBox="0 0 24 24"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
+        </a>
+        <!-- Substack -->
+        <a href="#" target="_blank" rel="noopener" title="Substack">
+          <svg viewBox="0 0 24 24"><path d="M3 5h18M3 9.5h18"/><path d="M3 14v7l9-4 9 4v-7H3z"/></svg>
+        </a>
+      </div>
+    </section>
+
+    <section class="split">
+      <div class="about">
+        <h2><span class="en">About</span><span class="zh">关于</span></h2>
+
+        <p class="en">Welcome to our AI &amp; Digital Finance Lab! Our group investigates problems at the intersection of statistics, machine learning, and financial markets, with a focus on the <span class="code-tag">Blockchain</span> &times; <span class="code-tag">Digital Assets</span> &times; <span class="code-tag">Digital Finance</span> space.</p>
+        <p class="zh">欢迎访问人工智能与数字金融实验室！我们的团队致力于研究统计学、机器学习与金融市场交叉领域的问题，重点关注<span class="code-tag">区块链</span> &times; <span class="code-tag">数字资产</span> &times; <span class="code-tag">数字金融</span>领域。</p>
+
+        <p class="en">Our goal is to combine rigorous statistical theory with modern machine learning to study how digital assets behave, how risk propagates through decentralised systems, and what this means for markets and policy.</p>
+        <p class="zh">我们的目标是将严谨的统计理论与现代机器学习相结合，研究数字资产的行为特征、风险在去中心化系统中的传导机制，以及由此对市场与政策产生的影响。</p>
+
+        <p class="en">Our team is based in the School of Statistics at Renmin University of China, and collaborates with researchers across statistics, economics, and computer science, within China and globally.</p>
+        <p class="zh">我们的团队设于中国人民大学统计学院，并与国内外统计学、经济学及计算机科学领域的研究者广泛合作。</p>
+      </div>
+
+      <div class="about">
+        <h2><span class="en">Research Areas</span><span class="zh">研究方向</span></h2>
+
+        <p class="en">Our research spans a wide range of topics including (but not limited to):</p>
+        <p class="zh">我们的研究涵盖广泛的主题，包括但不限于：</p>
+
+        <ul class="en">
+          <li>Network analysis, stylised facts, and market dynamics of cryptocurrency, blockchain, and DeFi systems.</li>
+          <li>Machine learning for fraud and anomaly detection in financial networks.</li>
+          <li>Statistical distribution theory and econometric modelling for digital assets.</li>
+          <li>AI-driven financial innovation and its regulatory implications.</li>
+        </ul>
+        <ul class="zh">
+          <li>加密货币、区块链与 DeFi 系统的网络分析、程式化事实与市场动态。</li>
+          <li>面向金融网络的欺诈与异常检测的机器学习方法。</li>
+          <li>面向数字资产的统计分布理论与计量经济建模。</li>
+          <li>人工智能驱动的金融创新及其监管影响。</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="about">
+      <h2><span class="en">Notices</span><span class="zh">通知</span></h2>
+      <p class="en">None.</p>
+      <p class="zh">暂无。</p>
+    </section>
+
+    <section>
+      <h2><span class="en">News</span><span class="zh">新闻动态</span></h2>
+      <div class="news-list">
+
+        <div class="news-item">
+          <span class="news-date"><span class="en">June 2026</span><span class="zh">2026年6月</span></span>
+          <div class="news-body">
+            <p class="en">One paper accepted in <strong>International Review of Economics &amp; Finance</strong>!</p>
+            <p class="zh">一篇论文被《<strong>国际经济与金融评论</strong>》录用！</p>
+          </div>
+        </div>
+
+        <div class="news-item">
+          <span class="news-date"><span class="en">January 2026</span><span class="zh">2026年1月</span></span>
+          <div class="news-body">
+            <p class="en">One paper accepted at <strong>WWW'26</strong>!</p>
+            <p class="zh">一篇论文被 <strong>WWW'26</strong> 录用！</p>
+          </div>
+        </div>
+
+        <div class="news-item">
+          <span class="news-date"><span class="en">September 2025</span><span class="zh">2025年9月</span></span>
+          <div class="news-body">
+            <p class="en">One paper accepted in <strong>Physica A: Statistical Mechanics and its Applications</strong>!</p>
+            <p class="zh">一篇论文被《<strong>Physica A：统计力学及其应用</strong>》录用！</p>
+          </div>
+        </div>
+
+        <div class="news-item">
+          <span class="news-date"><span class="en">August 2025</span><span class="zh">2025年8月</span></span>
+          <div class="news-body">
+            <p class="en">One paper accepted in the <strong>Journal of the Royal Statistical Society: Series A</strong>!</p>
+            <p class="zh">一篇论文被《<strong>英国皇家统计学会会刊：A辑</strong>》录用！</p>
+            <p class="en">One paper accepted at <strong>IEEE ICDM 2025</strong>!</p>
+            <p class="zh">一篇论文被 <strong>IEEE ICDM 2025</strong> 录用！</p>
+          </div>
+        </div>
+
+        <div class="news-item">
+          <span class="news-date"><span class="en">July 2025</span><span class="zh">2025年7月</span></span>
+          <div class="news-body">
+            <p class="en">One paper accepted in <strong>Applied Economics Letters</strong>!</p>
+            <p class="zh">一篇论文被《<strong>应用经济学快报</strong>》录用！</p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section>
+      <h2><span class="en">Selected Publications</span><span class="zh">代表性论文</span></h2>
+      <div class="pub-cards">
+
+        <div class="pub-card">
+          <span class="pub-card-venue">WWW '26 &middot; 2026</span>
+          <span class="pub-card-title">
+            <span class="en">Multi-Modal Enhanced Graph Transfer Learning for Digital Finance Fraud Detection</span>
+            <span class="zh">面向数字金融欺诈检测的多模态增强图迁移学习</span>
+          </span>
+          <span class="pub-card-meta">
+            <span class="en"><em>Proceedings of the ACM Web Conference 2026</em>. Dubai, United Arab Emirates. ACM.</span>
+            <span class="zh"><em>ACM 国际万维网大会 2026 论文集</em>。阿联酋迪拜。ACM。</span>
+          </span>
+          <a href="https://doi.org/10.1145/3774904.3792946" target="_blank" rel="noopener">
+            <span class="en">Read paper &rarr;</span><span class="zh">阅读论文 &rarr;</span>
+          </a>
+        </div>
+
+        <div class="pub-card">
+          <span class="pub-card-venue">JRSS-A &middot; 2026</span>
+          <span class="pub-card-title">
+            <span class="en">Multilayer Topology-Aware Graph Contrastive Learning for Fraud Detection in the Ethereum Transaction Network</span>
+            <span class="zh">面向以太坊交易网络欺诈检测的多层拓扑感知图对比学习</span>
+          </span>
+          <span class="pub-card-meta">
+            <span class="en"><em>Journal of the Royal Statistical Society Series A</em>, 189, pp. 703&ndash;722.</span>
+            <span class="zh"><em>英国皇家统计学会会刊：A辑</em>，第189卷，703&ndash;722页。</span>
+          </span>
+          <a href="https://doi.org/10.1093/jrsssa/qnaf135" target="_blank" rel="noopener">
+            <span class="en">Read paper &rarr;</span><span class="zh">阅读论文 &rarr;</span>
+          </a>
+        </div>
+
+        <div class="pub-card">
+          <span class="pub-card-venue">Int. Rev. Econ. Finance &middot; 2026</span>
+          <span class="pub-card-title">
+            <span class="en">The interplay between crypto market conditions and phishing crimes: Ethereum under the microscope</span>
+            <span class="zh">加密市场状况与网络钓鱼犯罪的相互作用：显微镜下的以太坊</span>
+          </span>
+          <span class="pub-card-meta">
+            <span class="en"><em>International Review of Economics &amp; Finance</em>, 110, 105497.</span>
+            <span class="zh"><em>国际经济与金融评论</em>，第110卷，105497。</span>
+          </span>
+          <a href="https://doi.org/10.1016/j.iref.2026.105497" target="_blank" rel="noopener">
+            <span class="en">Read paper &rarr;</span><span class="zh">阅读论文 &rarr;</span>
+          </a>
+        </div>
+
+        <div class="pub-card">
+          <span class="pub-card-venue">Physica A &middot; 2025</span>
+          <span class="pub-card-title">
+            <span class="en">Network transitions in the cryptocurrency market: The impact of regional conflicts</span>
+            <span class="zh">加密货币市场的网络演变：地区冲突的影响</span>
+          </span>
+          <span class="pub-card-meta">
+            <span class="en"><em>Physica A: Statistical Mechanics and its Applications</em>, 680, 131013.</span>
+            <span class="zh"><em>Physica A：统计力学及其应用</em>，第680卷，131013。</span>
+          </span>
+          <a href="https://doi.org/10.1016/j.physa.2025.131013" target="_blank" rel="noopener">
+            <span class="en">Read paper &rarr;</span><span class="zh">阅读论文 &rarr;</span>
+          </a>
+        </div>
+
+        <div class="pub-card">
+          <span class="pub-card-venue">IEEE ICDM &middot; 2025</span>
+          <span class="pub-card-title">
+            <span class="en">When LLM Meets Simplicial Complex: A Novel Graph Prompt Learning on Ethereum Transaction Networks</span>
+            <span class="zh">当大语言模型遇见单纯复形：以太坊交易网络上的图提示学习新方法</span>
+          </span>
+          <span class="pub-card-meta">
+            <span class="en"><em>Proceedings of the 2025 IEEE International Conference on Data Mining</em>.</span>
+            <span class="zh"><em>2025年IEEE国际数据挖掘会议论文集</em>。</span>
+          </span>
+          <a href="https://doi.org/10.1109/ICDM65498.2025.00148" target="_blank" rel="noopener">
+            <span class="en">Read paper &rarr;</span><span class="zh">阅读论文 &rarr;</span>
+          </a>
+        </div>
+
+        <div class="pub-card">
+          <span class="pub-card-venue">Applied Economics Letters &middot; 2025</span>
+          <span class="pub-card-title">
+            <span class="en">Cryptocurrency in war: a double-edged sword?</span>
+            <span class="zh">战争中的加密货币：一把双刃剑？</span>
+          </span>
+          <span class="pub-card-meta">
+            <span class="en"><em>Applied Economics Letters</em>, Online.</span>
+            <span class="zh"><em>应用经济学快报</em>，在线发表。</span>
+          </span>
+          <a href="https://doi.org/10.1080/13504851.2025.2543987" target="_blank" rel="noopener">
+            <span class="en">Read paper &rarr;</span><span class="zh">阅读论文 &rarr;</span>
+          </a>
+        </div>
+
+      </div>
+    </section>
+
+    <section>
+      <h2><span class="en">Research Projects</span><span class="zh">科研项目</span></h2>
+      <div class="news-list">
+        <div class="news-item">
+          <span class="news-date proj-date">
+            <span><span class="en">2025 &ndash; 2026</span><span class="zh">2025 &ndash; 2026年</span></span>
+            <span class="badge badge-progress"><span class="en">In Progress</span><span class="zh">进行中</span></span>
+          </span>
+          <div class="news-body">
+            <p class="en"><strong>Anomaly detection methods for blockchain-based networks</strong></p>
+            <p class="zh"><strong>面向区块链网络的异常检测方法</strong></p>
+            <p class="en meta">RMB 400,000 &middot; National Natural Science Foundation of China (NSFC) &middot; 2024 Research Fund for International Young Scientists (RFIS-I) &middot; (W2433186) &middot; PI: Jeffrey Chu</p>
+            <p class="zh meta">40万元人民币 &middot; 国家自然科学基金委员会（NSFC） &middot; 2024年度外国青年学者研究基金项目（RFIS-I） &middot; （W2433186） &middot; 负责人：朱杰飞</p>
+          </div>
+        </div>
+        <div class="news-item">
+          <span class="news-date proj-date">
+            <span><span class="en">2023 &ndash; 2025</span><span class="zh">2023 &ndash; 2025年</span></span>
+            <span class="badge badge-complete"><span class="en">Complete</span><span class="zh">已结题</span></span>
+          </span>
+          <div class="news-body">
+            <p class="en"><strong>Research on Detecting Illicit Activity in Digital Cryptocurrency Networks</strong></p>
+            <p class="zh"><strong>数字加密货币网络中非法活动检测研究</strong></p>
+            <p class="en meta">RMB 200,000 &middot; Beijing Natural Science Foundation (BJNSF) &middot; 2023 International Scientists Project &middot; (IS23126) &middot; PI: Jeffrey Chu</p>
+            <p class="zh meta">20万元人民币 &middot; 北京市自然科学基金（BJNSF） &middot; 2023年度外国科学家研究基金项目 &middot; （IS23126） &middot; 负责人：朱杰飞</p>
+          </div>
+        </div>
+        <div class="news-item">
+          <span class="news-date proj-date">
+            <span><span class="en">2023 &ndash; 2024</span><span class="zh">2023 &ndash; 2024年</span></span>
+            <span class="badge badge-complete"><span class="en">Complete</span><span class="zh">已结题</span></span>
+          </span>
+          <div class="news-body">
+            <p class="en"><strong>Graph-Theoretic Analysis for Consumer Credit Risk Assessment in Personal Lending</strong></p>
+            <p class="zh"><strong>个人信贷消费者信用风险评估的图论分析</strong></p>
+            <p class="en meta">CHF 25,000 &middot; Leading House Asia, ETH Zurich &middot; 2023 Applied Research Partnership Grant &middot; (ARP_112023_08) &middot; Swiss PI: Joerg Osterrieder; Asia PI: Jeffrey Chu</p>
+            <p class="zh meta">2.5万瑞士法郎 &middot; 苏黎世联邦理工学院 Leading House Asia &middot; 2023年度应用研究合作项目 &middot; （ARP_112023_08） &middot; 瑞士方负责人：Joerg Osterrieder；亚洲方负责人：朱杰飞</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="about">
+      <h2><span class="en">Collaborative Partnerships</span><span class="zh">合作伙伴</span></h2>
+
+      <p class="en">Our group has existing research collaborations with researchers from the institutions and groups below, but welcomes collaboration with academic and industry partners working on digital assets and financial data. Please get in touch to discuss joint projects or data partnerships.</p>
+      <p class="zh">本团队与以下机构及组织的研究人员保持着长期的科研合作，同时也欢迎与从事数字资产与金融数据研究的学术界及产业界伙伴开展合作。欢迎联系洽谈合作项目或数据合作。</p>
+
+      <div class="partners">
+        <a href="https://www.manchester.ac.uk/" target="_blank" rel="noopener">
+          <img src="../partner-manchester.png" alt="The University of Manchester" />
+        </a>
+        <a href="https://www.aus.edu/" target="_blank" rel="noopener">
+          <img src="../partner-aus.png" alt="American University of Sharjah" />
+        </a>
+        <a href="https://www.soa.org/" target="_blank" rel="noopener">
+          <img src="../partner-soa.png" alt="Society of Actuaries" />
+        </a>
+        <a href="https://www.digital-finance-msca.com/" target="_blank" rel="noopener">
+          <img src="../partner-msca.png" alt="MSCA Digital Finance" />
+        </a>
+      </div>
+    </section>
+
+    <section>
+      <h2><span class="en">The Team</span><span class="zh">团队</span></h2>
+      <div class="news-list">
+        <div class="news-item">
+          <span class="news-date"><span class="en">Director</span><span class="zh">负责人</span></span>
+          <div class="news-body">
+            <p class="en"><strong>Jeffrey Chu</strong> &mdash; Associate Professor, School of Statistics.</p>
+            <p class="zh"><strong>朱杰飞</strong> &mdash; 统计学院副教授。</p>
+          </div>
+        </div>
+        <div class="news-item">
+          <span class="news-date"><span class="en">Members</span><span class="zh">成员</span></span>
+          <div class="news-body">
+            <p class="en">The team comprises five postgraduate students in the School of Statistics, Renmin University of China.</p>
+            <p class="zh">团队由中国人民大学统计学院的五名研究生组成。</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="profile-divider"></div>
+    <div class="social-links" style="margin-bottom:0.85rem;">
+        <a href="https://scholar.google.com/citations?user=0jB6u6kAAAAJ" target="_blank" rel="noopener" title="Google Scholar">
+          <svg viewBox="0 0 24 24"><path d="M21.42 10.922a1 1 0 0 0-.019-1.838L12.83 5.18a2 2 0 0 0-1.66 0L2.6 9.08a1 1 0 0 0 0 1.832l8.57 3.908a2 2 0 0 0 1.66 0z"/><path d="M22 10v6"/><path d="M6 12.5V16a6 3 0 0 0 12 0v-3.5"/></svg>
+        </a>
+        <a href="#" target="_blank" rel="noopener" title="ORCID">
+          <svg viewBox="0 0 24 24"><rect x="2" y="5" width="20" height="14" rx="2"/><circle cx="8" cy="11" r="2"/><path d="M13 10h4M13 14h3"/><path d="M2 16h20"/></svg>
+        </a>
+        <a href="#" target="_blank" rel="noopener" title="GitHub">
+          <svg viewBox="0 0 24 24"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"/><path d="M9 18c-4.51 2-5-2-7-2"/></svg>
+        </a>
+        <a href="#" target="_blank" rel="noopener" title="LinkedIn">
+          <svg viewBox="0 0 24 24"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+        </a>
+        <a href="#" target="_blank" rel="noopener" title="X (Twitter)">
+          <svg viewBox="0 0 24 24"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
+        </a>
+        <a href="#" target="_blank" rel="noopener" title="Substack">
+          <svg viewBox="0 0 24 24"><path d="M3 5h18M3 9.5h18"/><path d="M3 14v7l9-4 9 4v-7H3z"/></svg>
+        </a>
+    </div>
+    <span class="en">Designed and built ("vibe-coded") by Jeffrey Chu.</span>
+    <span class="zh">由 Jeffrey Chu 设计制作（"氛围编程"）。</span>
+  </footer>
+
+  <script src="../site.js"></script>
+</body>
+</html>

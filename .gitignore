@@ -1,0 +1,15 @@
+# macOS
+.DS_Store
+
+# Local editor/preview tooling
+.claude/
+
+# Pre-git snapshot — git history supersedes this
+_archive/
+
+# Teaching slides and LaTeX build artifacts (not part of the website)
+slides/
+
+# Unused source images (site uses jeffrey-chu2-crop.jpg)
+jeffrey-chu.png
+jeffrey-chu2.jpg
